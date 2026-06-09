@@ -1,0 +1,61 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f7f0e8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.contenedor {
+  text-align: center;
+}
+
+h1 {
+  color: #7a4b1f;
+  margin-bottom: 20px;
+}
+
+.tarjeta {
+  background: #fffaf5;
+  width: 450px;
+  padding: 25px;
+  border-radius: 15px;
+  border: 4px solid #d97706;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+  margin: 20px auto;
+}
+
+#palabra {
+  color: #d97706;
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+
+#descripcion {
+  color: #5c4033;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+button {
+  background: #2e7d32;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #1b5e20;
+  transform: scale(1.05);
+}
+
+button:active {
+  transform: scale(0.98);
+}
